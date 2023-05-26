@@ -1,0 +1,75 @@
+1. Who invited Takumi to join the illegal Human Trafficking community?
+What's the name of the group/community?
+And what's the name of the first app used to begin the chat conversation? (All of the answers are lowercase)
+
+Format: name_communityname_appsname
+Ex: john_theragingbullseye_michat
+
+
+2. What's Takumi email? And what's the boss name likely?
+If the boss full name consists of two words, you need to join them. (Mikazu Tamara -> mikazutamara)
+All the answers are in lowercase.
+
+Format: email@tld_bossname
+Ex: badut@mail.xyz_mikazutamara
+
+3. How many channels are there in the first app? 
+Also, What's the name of the last created channel? (exclude any prefix(es) of the channel's name, like ignore the '#' and all LOWERCASE)
+
+Format: TotalChannels_Name
+Ex: 2_this-is-home
+
+4. When did Takumi create a thread message for the first time in the first app?
+
+Format: DD/MM/YYYY_HH:MM (In UTC Format)
+Ex: 13/12/2008_21:15
+
+5. What's the second application that was used to communicate?
+Format: appsname (all LOWERCASE)
+Ex: wechat
+
+6. When was the group/server in the second application created?
+
+Format: DD/MM/YYYY_HH:MM:SS (In UTC Format)
+Ex: 02/01/2019_10:28:30
+
+7. Who creates a registration system for the illegal Human Trafficking Community?
+
+Format: name (lowercase)
+Ex: yuda
+
+8. What's the URL for the registration form website that was created by the one who creates the registration system?
+
+Format: URL
+ex: http://justlikethis.com
+
+9. How many user's trusted domain cache key(s) in the second application?
+
+Format: totaloftheusertrusteddomaincachekey
+Ex: 23
+
+10. Takumi downloaded an illegal APK that was given by the Boss.
+The Boss said that apk was zipped and protected with his password that was used
+before in the registration form website.
+Our DFIR acquintance said that the source code of that form was revealed in the second application and the 'secret code' refers to
+the 'sc' parameter.
+
+What's the password of the zipped APK file?
+
+Format: password
+Ex: !aml33t
+
+11. The boss gave Takumi a website link containing a text-based information regarding a cash-flow spending of the community and the potential next volunteers who are willing to be sold.
+Luckily he already read the content and ARCHIVED it.
+How many volunteers that come from United States (US) ? 
+
+Format: TotalVolunteersFromUS
+Ex: 105
+
+12. Currently there's no forensicator who's able to reverse engineer the illegal APK that was downloaded by Takumi before.
+Takumi said the illegal APK contains a simple login activity but he refused to tell the credentials. 
+What's the administrators credentials for the illegal APK that was downloaded?
+
+Format: username:password
+Ex: admin:root123
+

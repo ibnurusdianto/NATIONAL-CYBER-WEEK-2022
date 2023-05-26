@@ -1,0 +1,272 @@
+{
+    "data": {
+        "Binary Exploitation": [
+            {
+                "category": "Binary Exploitation",
+                "description": "0xdc9 signature's\r\n\r\nhttps://drive.google.com/file/d/190WlfB0mnLEne-VuHj75pc68XtVAqWP5/view?usp=sharing\r\npass:` inipasswordnyages`\r\n\r\n`` nc 103.167.136.75 3737 ``\r\n\r\nbackup: `` nc 103.167.136.123 3737 ``\r\n\r\nauthor:0xdc9#2020\r\n",
+                "files": [],
+                "hints": [
+                    "kadang yang jadi satu, ga memberikan precision dan accuracy yang kita harapkan. get base, patternize, and perhaps you'll win",
+                    "mainin ioctl, read, ioctl, read lagi #Arbitsengtuary. kalo udah tau dan dapet, nasm is the way to go kalo gcc mu error terus"
+                ],
+                "id": 41,
+                "name": "Force",
+                "points": 500,
+                "solves": 0
+            },
+            {
+                "category": "Binary Exploitation",
+                "description": "This is warm up\r\n\r\nhttps://drive.google.com/drive/folders/1H21IWRf4xFMBIwz6utVCBneNDZoBnoS0?usp=share_link\r\n\r\nAuhor: Enryu#7942\r\n\r\nBackup: nc 103.167.136.123 11106",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 31,
+                "name": "Warm Up 1",
+                "points": 500,
+                "solves": 1
+            },
+            {
+                "category": "Binary Exploitation",
+                "description": "This is warm up again\r\n\r\nhttps://drive.google.com/drive/folders/1UnlW7LEVqg6xSDpBXRQUFYy4Z_DktT6Y?usp=share_link\r\n\r\nAuthor: Enryu#7942\r\n\r\nBackup : nc 103.167.136.123 11103\r\n",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 32,
+                "name": "Warm Up 2",
+                "points": 496,
+                "solves": 3
+            }
+        ],
+        "Cryptography": [
+            {
+                "category": "Cryptography",
+                "description": "Rehan, Jamet's acquintance, has just started learning  cryptography and he chose this encryption from soneone's theory that he thought the implementation is pretty secure. What are the probability that someone had to break this encryption tho?\r\n\r\nRehan said this is a warmups ~\r\n\r\nIf you could break it, wrap the secret with `NCW22{.*}`\r\n\r\nAuthor: aseng#2055",
+                "files": [
+                    "/files/3ea9d57e63e7a6d4c63d749da736c7ed/dessert.py?token=eyJ1c2VyX2lkIjoxLCJ0ZWFtX2lkIjo1LCJmaWxlX2lkIjo3fQ.Y2ZbnA.ZmvDePmlG3PSgnvYkIqwcw3NpPQ",
+                    "/files/caf7b69df99193f7aa315e0663739321/output.txt?token=eyJ1c2VyX2lkIjoxLCJ0ZWFtX2lkIjo1LCJmaWxlX2lkIjo4fQ.Y2ZbnA.UoAFkNq0ooZU4GCCEzJTeTwyROw"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 19,
+                "name": "Cakemath",
+                "points": 451,
+                "solves": 8
+            },
+            {
+                "category": "Cryptography",
+                "description": "Jamet and Mamang are 2 scientists who want to study everything about cryptography. They intended to make a cryptographic tool, but there is something strange about the encoder they have made. The problem is, the encoder has already been used before the decoder was even designed. plus, Jamet accidentally spilled coffee on the source code, so now we can't see the encoding function. Can you solve it for them?\r\n\r\ntips: analyze the output and compare with the og ;)\r\n\r\nChall: **nc 103.167.136.75 9988**\r\nBackup: **nc 103.167.136.123 9988**\r\n\r\nAuthor: kisanak#5303",
+                "files": [
+                    "/files/9782d4de73c848986bd81c5202daded3/sabeb.py?token=eyJ1c2VyX2lkIjoxLCJ0ZWFtX2lkIjo1LCJmaWxlX2lkIjo0fQ.Y2ZbnA.f_wDLBuNZEs6jzoEN8NWzoVKbQg"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 15,
+                "name": "sabeb64",
+                "points": 331,
+                "solves": 14
+            },
+            {
+                "category": "Cryptography",
+                "description": "Jamet and Mamang were assigned to build an RSA encryption machine to encrypt their boss's messages. But Jamet forgot to delete the code from the debugging process so some of it values are leaked. Is it really that dangerous?\r\n\r\n`Author: kisanak#5303`\r\nChall: **nc 103.167.136.75 9966**\r\nBackup: **nc 103.167.136.123 9966**",
+                "files": [
+                    "/files/cfcb03ee13589134f50a1b17d711ee48/soal.py?token=eyJ1c2VyX2lkIjoxLCJ0ZWFtX2lkIjo1LCJmaWxlX2lkIjo1fQ.Y2ZbnA.RdTESCtUDCp45ghK_-QhVU7YGh0"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 16,
+                "name": "Turmoil",
+                "points": 491,
+                "solves": 4
+            }
+        ],
+        "Forensic": [
+            {
+                "category": "Forensic",
+                "description": "*\"A few days ago, I went to a store wanting to buy groceries, but the store was closed. Then, in front of the store I saw a banner with an email referring to the owner of the store. I contacted the email several times and I received a reply message from the email along with a brochure. Long story short, I go back home and opened the brochure from my computer and my computer got hacked, and I only realized after a few days later.\"*\r\n\r\n***As a Forensic Expert, you are given a document to analyze these evidences :***\r\n\r\n```\r\n1. What's the name of suspected person(attacker) that send the malicious brochure?\r\n(FULLNAME all lower case + if the name consists of two words like \"Ismail Marzuki\" then seperate those with whitespace character)\r\n\r\n2. What is the attacker's phone number?\r\n[Example Format = +62..........] -> Country-Code number format\r\n\r\n3. What is the Address(FQDN) that is close to the source email(sender)?\r\n(E.g : VG7SCF8EV1D.prod.ncwctf.donat.gula.id)\r\n\r\n4. What is the Address(IPv6 Address) that is close to the destination email(receiver)?\r\n(E.g : a05:a612:2d3:09f1:blah:blah:blah:blah)\r\n```\r\n\r\n\r\nHere is the netcat service to validate your answer :<br>\r\n``nc 103.167.136.75 1111``\r\n\r\n``nc 103.167.136.123 1111``\r\n\r\nThe flag is all the answers concatenated with **underscore**.\r\n\r\n`NCW22{answer1_answer2_answer3_answer4}`",
+                "files": [
+                    "/files/796861dfa595faa749466c13dece6917/Evidence.zip?token=eyJ1c2VyX2lkIjoxLCJ0ZWFtX2lkIjo1LCJmaWxlX2lkIjoxMn0.Y2ZbnA.oDC-2h9Flp_gDNduqrBAQPeGSQM"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 25,
+                "name": "BEC Chitchat",
+                "points": 331,
+                "solves": 12
+            },
+            {
+                "category": "Forensic",
+                "description": "`Takumi Ozawa` is a man who works for an illegal human trafficking community in Japan and US. He has just been caught by the local\r\npolice due to an illegal transaction that was happened in Japan.\r\n\r\nThe Digital Forensics Unit Policeman, Jean Tirstan informed that the evidence that they got is only a phone from Takumi himself so  he imaged the phone, parsed out some important evidence that will likely be the digital artifact for a proof in a courtroom.\r\n\r\nCan you help us by clarifying the questions related to the evidences?\r\n\r\nThere are **12** questions that you need to answer.\r\nIf you are worried that one of the question is either correct or incorrect, there's an `nc` service which will tell you if you're in the correct path:\r\n\r\n**nc 103.167.136.75 5377**\r\n\r\nAlternative:\r\n\r\n**nc 103.167.136.123 5377**\r\n\r\nDownload File [here](https://drive.google.com/file/d/1Mih6PaVFA4mvmx2Ki0ApYk7h1lEFIa7B/view?usp=share_link)\r\n\r\nAuthor: aseng#2055",
+                "files": [
+                    "/files/c762432995c01987fa4e40eea606f650/questions.txt?token=eyJ1c2VyX2lkIjoxLCJ0ZWFtX2lkIjo1LCJmaWxlX2lkIjoxNH0.Y2ZbnA.eU6xQ4roMIQcJRJKReVnfBuGR8Q",
+                    "/files/3ea03e140cd0821d5810ed11328ce43d/password.txt?token=eyJ1c2VyX2lkIjoxLCJ0ZWFtX2lkIjo1LCJmaWxlX2lkIjoxNX0.Y2ZbnA.wI4xIa_9kb80WQ2nLyLY-cKl3oc"
+                ],
+                "hints": [
+                    "Perhaps this repository can assist your investigation:\nhttps://github.com/abrignoni/ALEAPP",
+                    "If you manage to find the second application chat/channel, there are conversations that might help you uncover the evidence of the boss and Takumi.\n\nFun fact, the second apps will auto-delete the last character of each message from the user. This is intended by the behaviour of the second apps architecture design.\n\nNote that, all of the questions regarding the timestamps are in UTC format. Note that most of the apps timestamp are in UTC+7 ~, so probably you need to substract by 7-hours, or not (since some also in UTC by default).\n"
+                ],
+                "id": 28,
+                "name": "Human Trafficking Case",
+                "points": 499,
+                "solves": 2
+            },
+            {
+                "category": "Forensic",
+                "description": "``[ Evidence Number #398 - Trojan Downloader ]``\r\n\r\n<hr>\r\n\r\n**IMPORTANT NOTE** *from National Security Agency Forensic Investigator:*\r\n\r\n``\u201cREMEMBER to always keep this file away from any devices and do not run it either!!!\r\n...but if you still want to tinker with it, be sure to extract the zip file on an isolated environment like Virtual Machine.\r\nI'm not responsible for any risk that might happened to your machine if you neglect to heed to this warning.\"``\r\n<hr>\r\n\r\nHey folks, before you dive into the challenge, you have to know that this file contains real malware that is collected from malware's global database where all the malwares are quarantined there for further investigation by Forensic Investigator and for study purposes by people who want to sharpen their Forensic skill. ``(Reallife-like CTF :P)``\r\n\r\nSo, in order to solve this challenge you can use many free tools and with your unique analysis skill to get the answers according to the given questions. *This one is easy to solve and doesn't require any advanced analysis technique.* Also ``DO NOT FORGET to delete this file after the competition is done``, **just for safety reason**. \r\n\r\nAgain, i'm not responsible of any risk if you reject this warning. \r\n\r\nYou can access the questions here :\r\nhttps://tinyurl.com/wb9w957c\r\n\r\nFlag is ALL 4 Questions concatenated with \"_\" .\r\n\r\nFor example, NCW22{answer1_answer2_answer3_answer4}\r\n\r\n\r\nHere is the netcat service to validate your answer :<br>\r\n``nc 103.167.136.75 1112``\r\n\r\n``nc 103.167.136.123 1112``\r\n\r\n<div class=\"keren123\">\r\n\t<img src=\"https://media3.giphy.com/media/d88CHcGIHTwGjImQNh/giphy.gif?cid=790b76113df44f8cf495225c5691076e7d2573c519735bed&rid=giphy.gif&ct=g\" style=\"width:430px;\" />\r\n\t</div>\r\n\t<br>\r\n\t\r\n**Password File :** ``infected``",
+                "files": [
+                    "/files/71091d1432ec7b47fd4a8b49f5e775c0/Quarantined.zip?token=eyJ1c2VyX2lkIjoxLCJ0ZWFtX2lkIjo1LCJmaWxlX2lkIjoxMX0.Y2ZbnA.jwJ86gQNnh7BgE1KZ_n_Ruzpma0"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 23,
+                "name": "Downloader",
+                "points": 244,
+                "solves": 16
+            }
+        ],
+        "Miscellaneous": [
+            {
+                "category": "Miscellaneous",
+                "description": "In 2202 Human race finally fullfil their dream to live in space.But there are 3 things that stand out, namely, ISS (International Space Station), Bank of Flagzonia and a Space Artifact.and and um, by the way, have you visited all planets in the Milky Way?\r\n",
+                "files": [
+                    "/files/114fb0f1d84d5e1ee596b731bfb5653b/SOLAR_SYSTEM.zip?token=eyJ1c2VyX2lkIjoxLCJ0ZWFtX2lkIjo1LCJmaWxlX2lkIjoxM30.Y2ZbnA.E0VNforWlySenr7CV8PraMDvK1I"
+                ],
+                "hints": [
+                    "Static Analysis will only get you that far, why not try to deploy it and run it ?",
+                    "some function require tooooooo much gas fee to deploy and execute, there must be a way to decrease it right? right ?"
+                ],
+                "id": 26,
+                "name": "Solar System",
+                "points": 500,
+                "solves": 0
+            },
+            {
+                "category": "Miscellaneous",
+                "description": "A friend of Mr. Bin, Mr. Decryptor, followed his friend's path and started to learn programming. He is headed to a series of cryptographic problems that needs to be decrypted. Please help Mr. Decryptor!\r\n\r\nChall: **nc 103.167.136.75 9944**\r\n\r\nAuthor: darmads#5575",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 20,
+                "name": "Mr Decryptor",
+                "points": 100,
+                "solves": 26
+            },
+            {
+                "category": "Miscellaneous",
+                "description": "Mr Bin, who was just learning scripting, created a simple application to help him work. He was sure that his application was safe, until one of his friends told him. Get the flag in /flag.txt.\r\n\r\nWrap flag in flag format: **NCW22{...}**\r\n\r\nChall: **nc 103.167.136.75 2121**\r\n\r\nBackup: **nc 103.167.136.123 2121**\r\n\r\nAuthor: ErikHen#6413",
+                "files": [],
+                "hints": [
+                    "Don't forget that you can download All of your files!\n\nP.S. Spongebob likes rajungan and saus Tartar"
+                ],
+                "id": 14,
+                "name": "Mr Bin",
+                "points": 491,
+                "solves": 2
+            }
+        ],
+        "Reverse Engineering": [
+            {
+                "category": "Reverse Engineering",
+                "description": "Looks like a simple chall, but how do i get in there?\r\n\r\nnote = wrap the flag you found with NCW22{.*}\r\n\r\nAuthor: kisanak#5303",
+                "files": [
+                    "/files/459dacfccaa13208c4cbd53c3f2ff2dc/jadi?token=eyJ1c2VyX2lkIjoxLCJ0ZWFtX2lkIjo1LCJmaWxlX2lkIjo2fQ.Y2ZbnA.wKFespT7-3fXElEF3zgJrPM1qcc"
+                ],
+                "hints": [
+                    "Sometimes all you need to do to view the scenery is only as simple as** two bytes**, but the scenery seems to be much **traditional** and **homemade**",
+                    "I don't really like to use lib so i made it myself. Kinda buggy but... oh well"
+                ],
+                "id": 17,
+                "name": "Reinvent the Wheel",
+                "points": 499,
+                "solves": 1
+            },
+            {
+                "category": "Reverse Engineering",
+                "description": "Because Flaggy Bird was cheated by Uncle Iseng last year, Flaggy Bird has switched its platforms to a website-based game that is safe and cannot be cheated?? Developers are sure that the new Flaggy Bird will not be cracked! But, is it true? You need to win to get the flag!\r\n\r\nWrap flag in flag format: **NCW22{...}**\r\n\r\nAuthor: ErikHen#6413\r\n\r\nBackup Challenge: http://103.167.136.123:2122/",
+                "files": [],
+                "hints": [
+                    "Do you know that 7-digit is flappy's number and he likes write more than read?\n\n\n\n\n\nP.S. 3490x"
+                ],
+                "id": 13,
+                "name": "Flaggy Bird V2",
+                "points": 500,
+                "solves": 1
+            },
+            {
+                "category": "Reverse Engineering",
+                "description": "Mikael is still struggling to find his way so the author makes an easier way. Help him to get the value! Example if the value is 100 then write in the answer NCW22{100}.\r\n\r\nAuthor: Lawson Schwantz #3021\r\n",
+                "files": [
+                    "/files/b165887d1ca466a2e6e1e4a8c81512ca/countheflagbuteasier.txt?token=eyJ1c2VyX2lkIjoxLCJ0ZWFtX2lkIjo1LCJmaWxlX2lkIjo5fQ.Y2ZbnA.w30XkRgqaazbMgLrxx133C3_9PU"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 22,
+                "name": "Count the Flag but Easier",
+                "points": 331,
+                "solves": 11
+            }
+        ],
+        "Web Exploitation": [
+            {
+                "category": "Web Exploitation",
+                "description": "Nowadays, everyone is scared of Bjorka. But no more worries, Undisclosed is here to protect your identity! Even if everyone knows about your personal information, you can still hide your face with our amazing collection of masks! Order now, and protect your identity!\r\n\r\n<style>\r\n\t.gambar{\r\n\tdisplay:flex;\r\n\tjustify-content:center;\r\n\t\r\n\t}\r\n\t</style>\r\n\r\n<div class=\"gambar\">\r\n<img src='https://media2.giphy.com/media/PivT96p5GChj1OM5o9/giphy.gif?cid=790b76112d324af16b228b1c8a8f5f469c63fb3e4a588359&rid=giphy.gif&ct=s' width=\"300px\" />\r\n\t</div>\r\n<br>\r\n\r\nAuthor: Shatternox#1668\r\n\r\nBackup: http://103.167.136.123:44512/\r\n",
+                "files": [],
+                "hints": [
+                    "<img src='https://i.pinimg.com/originals/9c/85/7e/9c857e898421fbb133095aa4578ac332.gif' />"
+                ],
+                "id": 12,
+                "name": "Undisclosed",
+                "points": 500,
+                "solves": 1
+            },
+            {
+                "category": "Web Exploitation",
+                "description": "New challenger has entered the arena, a start up company named file & reading incorporated has just made an announcement that they are making some sort of web based file reading tool for server maintainer, the possibility seems endless. \r\n\r\nThe flag is at `/flag.txt`\r\n\r\nAuthor: mitm#0012\r\n\r\nbackup: http://103.167.136.123:54170/",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 27,
+                "name": "file&reading INC",
+                "points": 100,
+                "solves": 22
+            },
+            {
+                "category": "Web Exploitation",
+                "description": "Yesterday, a thunderstorm happened when I developed this website and suddenly my laptop went off due to big thunder. But worry not, nano technology can save it all and thankfully I've finished it on time. Good luck on hacking this not so secure website! \r\n\r\nBackup: http://103.167.136.123:3850\r\n\r\nAuthor: maskirovka#5610",
+                "files": [],
+                "hints": [
+                    "Have you found the secret function that I've implemented for this website? Maybe it could be use as a path to become \"one\" with the system. And beware of the invisible wall that protect the internal system. One more thing, \"fast\" and \"understanding\" is all you needed. Good luck!"
+                ],
+                "id": 40,
+                "name": "Fast lane",
+                "points": 500,
+                "solves": 0
+            }
+        ],
+        "Welcoming Party": [
+            {
+                "category": "Welcoming Party",
+                "description": "Welcome to NCW2022!\r\n\r\nYesterday was fun so we hope today you had more fun!\r\nHere's your free flag ->  `NCW22{hology5{}_ada_yg_lg_h0lo_gy_juga_ga_hr_1n1?}` \r\n",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 46,
+                "name": "Free Flag",
+                "points": 100,
+                "solves": 38
+            }
+        ]
+    },
+    "title": "NCW CTF",
+    "url": "https://ncw2k22.com"
+}
